@@ -1,0 +1,108 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.hero__title{
+    color: black;
+}
+.menu{
+    border: 5px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: rgba(6, 36, 100, 0.85);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.hero{
+    color: white;
+    background-image: url("img/low-angle-photo-of-four-high-rise-curtain-wall-buildings-830891.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 541px;
+}
+.hero-bancos{
+    color: white;
+    background-image: url("img/round-silver-and-gold-coins-730564.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.hero-bancos .hero__title {
+    padding-top: 150px;
+}
+.hero-historico{
+    color: white;
+    background-image: url("img/black-samsung-tablet-computer-106344.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 541px;
+}
+.hero-historico .hero__title {
+    padding-top: 180px;
+}
+.hero-historico .hero__title h1 {
+    color: rgba(22, 128, 186, 0.97);
+
+}
+.informacion{
+    background-color: #E5E5E5;
+}
+.informacion_calculator{
+    padding-left: 11%;
+    padding-right: 11%;
+}
+.informacion .informacion_calculator-rectangulo {
+    background-color: rgba(22, 128, 186, 0.97);
+    border: 6px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.informacion .informacion_calculator-rectangulo .informacion_calculator-title {
+    color: white;
+}
+.form-group input{
+    background: rgba(229, 229, 229, 0.3);
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 40px;
+}
+.form-group h4 {
+    color: white;
+}
+.form-group img {
+    width: 40px;
+    position: relative; 
+}
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: rgba(6, 36, 100, 0.85);
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+     border-top:white ;
+     border-left:white ;
+     border-right:white ;
+
+}
+.tab-pane .logo-bancos img{
+    width: 225px;
+}
+.footer{
+    background-color: rgba(6, 36, 100, 0.85);
+}
